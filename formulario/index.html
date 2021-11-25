@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>Formulário</h1>
+        <h2>Complete com suas informações</h2>
+    </div>
+
+    <form>
+        <fieldset>
+            <div>
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="nome">
+                <label for="sobrenome">Sobrenome</label>
+                <input type="text" name="sobrenome" id="sobrenome">
+            </div> 
+        </fieldset>
+        <fieldset>
+                <div>
+                <label for="idade">Idade</label>
+                <input type="number" name="idade" id="idade">
+            </div>
+        </fieldset>
+        <fieldset>
+            <div>
+                <label for="numero-tel">Número de telefone</label>
+                <input type="number" name="numero-tel" id="numero-tel">
+            </div>
+        </fieldset>
+        <fieldset>
+            <div>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+            </div>
+        </fieldset>
+        <div>
+            <button type="submit" onclick="ok()"></button>
+        </div>
+    </form>
+    <script src="script.js"></script>
+</body>
+</html>
