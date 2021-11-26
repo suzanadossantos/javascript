@@ -41,10 +41,13 @@ footer a{
 
 footer a:hover{
     color: black;
-    text-decoration: underline;
+    text-decoration: underline; 
+}
+
+footer p{
+    margin: auto;
 }
 
 #res{
-    text-align: center;
-    margin: auto;
+    text-align: center; 
 }
