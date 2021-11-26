@@ -4,10 +4,12 @@ body{
     background: #211FF5;
     font: normal 10pt Arial;
 }
-header{
+
+header h1{
     color: white;
     text-align: center;
 }
+
 main section{
     background: white;
     font-size: 1.3em;
@@ -16,6 +18,16 @@ main section{
     width: 500px;
     margin: auto;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.842);
+}
+
+main section div p#ver{
+    margin: auto;
+    text-align: center;
+}
+
+#res{
+    text-align: center; 
+    margin-top: 15px;
 }
 
 input:hover{
@@ -48,6 +60,4 @@ footer p{
     text-align: center; 
 }
 
-#res{
-    text-align: center; 
-}
+

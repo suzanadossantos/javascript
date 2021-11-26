@@ -12,7 +12,7 @@ function verificar(){
         var img = document.createElement('img')
         img.setAttribute('id', 'foto')
         if(fsex [0].checked){
-            gênero = "Homem"
+            gênero = "homem"
             if(idade>=0 && idade <10){
                 // Criança
                 img.setAttribute("src" , "imagens/bebe-menino.png")
@@ -27,7 +27,7 @@ function verificar(){
                 img.setAttribute("src" , "imagens/senhor-homem.png")
             }
         } else if(fsex[1].checked) {
-            gênero = "Mulher"
+            gênero = "mulher"
             if(idade>=0 && idade <10){
                 // Criança
                 img.setAttribute("src" , "imagens/bebe-menina.png")
