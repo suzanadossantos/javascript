@@ -15,35 +15,28 @@
 
     <form>
         <fieldset>
-            <div>
-                <label for="nome">Nome</label>
-                <input type="text" name="nome" id="nome">
-                <label for="sobrenome">Sobrenome</label>
-                <input type="text" name="sobrenome" id="sobrenome">
-            </div> 
+            <label for="nome">Nome *</label>
+            <input type="text" name="nome" id="nome" required>
+        
         </fieldset>
         <fieldset>
-                <div>
-                <label for="idade">Idade</label>
-                <input type="number" name="idade" id="idade">
-            </div>
+            <label for="idade">Idade *</label>
+            <input type="number" name="idade" id="idade" required>
         </fieldset>
         <fieldset>
-            <div>
-                <label for="numero-tel">Número de telefone</label>
-                <input type="number" name="numero-tel" id="numero-tel">
-            </div>
-        </fieldset>
+            <label for="tel">Telefone</label>
+            <input type="number" name="tel" id="tel">
+        </fieldset>  
         <fieldset>
-            <div>
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email">
-            </div>
-        </fieldset>
-        <div>
-            <button type="submit" onclick="ok()"></button>
-        </div>
+            <label for="email">Email *</label>
+                <input type="email" name="email" id="email" required>
+        </fieldset>       
     </form>
+
+    <div id="enviar">
+        <button type="submit" onclick="ok()">Enviar</button>
+    </div>
+
     <script src="script.js"></script>
 </body>
 </html>

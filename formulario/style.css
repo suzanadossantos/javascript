@@ -1,17 +1,31 @@
 @charset "UTF-8";
 
 :root{
-    
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
-
+    background-color: rgba(140, 248, 212, 0.411);
+    
 }
 
-h1{
-
+h1, h2{
+    text-align: center;
 }
 
-h2{
-
+form fieldset{
+    margin: 51px 20px 20px 51px;
+    margin: auto;
+    width: 700px;
+    background-color: rgba(41, 41, 43, 0.082);
+    line-height: 3em;
 }
+
+div#enviar button{
+    margin: 51px 20px 20px 51px;
+    width: 100px;
+    border-radius: 9px;
+    padding: 15px;
+    background-color: white;
+}
+
