@@ -7,10 +7,11 @@ function ok(){
     var num2= document.getElementById("valor2")
     var nvalor2= Number(num2.value)
 
+    var com= nvalor1 > nvalor2
     res.innerHTML="<p></p>"
     
-    if(nvalor1 == nvalor2){
-    res.innerHTML="<p></p>"
+    if(var com){
+    res.innerHTML="<p>Você tem o valor correspondente a compra</p>"
     }
 }
 
