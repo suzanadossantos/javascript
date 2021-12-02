@@ -15,14 +15,16 @@
     </header>
     <fieldset>
         <form>
-            <label for="var1">Valor da compra</label>
-            <input type="number" name="valor1" id="valor1">
-            <label for="var2">Seu dinheiro</label>
-            <input type="number" name="valor2" id="valor2">
-            <br>
+            <div id="inputs">
+                <label for="var1">Valor da compra</label>
+                <input type="number" name="valor1" id="valor1">
+                <label for="var2">Seu dinheiro</label>
+                <input type="number" name="valor2" id="valor2">
+                <div id="res"> </div> 
+            </div>
             <input type="button" value="calcular" onclick="ok()" class="botao">
             <input type="reset" value="limpar" id="limpar"class="botao">
-            <div id="res"> </div>   
+              
         </form>
     </fieldset>
     <footer>

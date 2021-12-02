@@ -9,8 +9,9 @@ header{
 }
 
 fieldset{
-    background-image: linear-gradient(to right, rgba(62, 62, 167, 0.514), rgba(0, 0, 0, 0.24));
-    width: 650px;
+    background-image: linear-gradient(to right, rgba(62, 62, 167, 0.534), rgba(0, 0, 0, 0.192));
+    max-width: 650px;
+    min-width: 320px;
     text-align: center;
     border-radius: 10px;
     padding: 2%;
@@ -24,17 +25,29 @@ fieldset input.botao{
     margin: 10px 5px 3px 3px;
 }
 
+fieldset input.botao:hover{
+    background-color: black;
+    color: white;
+}
+
 fieldset div#res{
     text-align: left;
 }
 
+fieldset div#inputs{
+    padding: 2px 10px 4px 5px;
+    margin: 2px;
+    line-height: 3em;
+}
+
 footer{
     margin: auto;
-    width: 650px;
+    max-width: 650px;
+    min-width: 320;
 }
 
 footer p{
-    background-image: linear-gradient(to right, rgba(62, 62, 167, 0.514), rgba(0, 0, 0, 0.24));
+    background-image: linear-gradient(to right, rgba(62, 62, 167, 0.534), rgba(0, 0, 0, 0.192));
     text-align: center;
     padding: 1.2%;
     margin: 20px 0px 2px 3px;
