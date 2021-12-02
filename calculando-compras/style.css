@@ -1,2 +1,46 @@
 @charset "UTF-8";
 
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    text-align: center;
+}
+
+fieldset{
+    background-image: linear-gradient(to right, rgba(62, 62, 167, 0.514), rgba(0, 0, 0, 0.24));
+    width: 90%;
+    text-align: center;
+    border-radius: 10px;
+    padding: 2%;
+    margin: 2%;
+    box-shadow: 0.2px 0.1px 0.1px 0.2px;
+}
+
+fieldset input.botao{
+    margin: 20px 3px 4px 4px;
+    padding: 1.2%;
+    margin: 10px 5px 3px 3px;
+}
+
+fieldset div#res{
+    text-align: left;
+}
+
+footer p{
+    background-image: linear-gradient(to right, rgba(62, 62, 167, 0.514), rgba(0, 0, 0, 0.24));
+    text-align: center;
+    padding: 1.2%;
+    margin: 20px 0px 2px 3px;
+    border-radius: 10px;
+}
+
+footer p a{
+    text-decoration: none;
+    color: black;
+}
+
+footer p a:hover{
+    text-decoration: underline;
+}

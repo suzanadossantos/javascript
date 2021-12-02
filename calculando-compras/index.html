@@ -13,19 +13,18 @@
         <hr>
         <h2>Verifique se você tem o suficiente para a compra</h2>
     </header>
-    <main>
-        <fieldset>
-            <form>
-                <label for="var1">Valor da compra</label>
-                <input type="number" name="valor1" id="valor1">
-                <label for="var2">Seu dinheiro</label>
-                <input type="number" name="valor2" id="valor2">
-                <input type="button" value="ok" onclick="ok()">
-                <input type="reset" value="limpar"onclick="reset()">
-                <div id="res"> </div>   
-            </form>
-        </fieldset>
-    </main>
+    <fieldset>
+        <form>
+            <label for="var1">Valor da compra</label>
+            <input type="number" name="valor1" id="valor1">
+            <label for="var2">Seu dinheiro</label>
+            <input type="number" name="valor2" id="valor2">
+            <br>
+            <input type="button" value="calcular" onclick="ok()" class="botao">
+            <input type="reset" value="limpar" id="limpar"class="botao">
+            <div id="res"> </div>   
+        </form>
+    </fieldset>
     <footer>
         <p>Desenvolvido por <strong><a href="https://github.com/suzanadossantos" target="_blank">Suzana dos Santos</a>🔗</strong></p>
     </footer>

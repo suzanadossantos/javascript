@@ -8,16 +8,13 @@ function ok(){
     var resultado=var2-var1
     var sobra = var1 - var2
 
-    if((resultado!=0) && (resultado>=0)){
+    if(resultado>0){
         res.innerHTML=`<p>Você tem dinheiro o suficiente para efetuar a compra!</p>`
         res.innerHTML+=`<p>Sobrou: $${resultado.toFixed(2)}</p>`
-    }else if(resultado>=1){
+    }else if(resultado<0){
         res.innerHTML=`<p>Infelizmente você não tem dinheiro o suficiente para efetuar a compra.</p>`
         res.innerHTML+=`<p>Você precisa de mais: $${sobra.toFixed(2)}</p>`
+    }else if(resultado==0){
+        res.innerHTML=`<p>Não é possível realizar o calculo.</p>`
     }
-}
-
-function reset(){
-    var res=document.querySelector("div#res")
-    res.innerHTML="<p>dsdddd</p>"
 }
