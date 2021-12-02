@@ -10,11 +10,11 @@ header{
 
 fieldset{
     background-image: linear-gradient(to right, rgba(62, 62, 167, 0.514), rgba(0, 0, 0, 0.24));
-    width: 90%;
+    width: 650px;
     text-align: center;
     border-radius: 10px;
     padding: 2%;
-    margin: 2%;
+    margin: auto;
     box-shadow: 0.2px 0.1px 0.1px 0.2px;
 }
 
@@ -26,6 +26,11 @@ fieldset input.botao{
 
 fieldset div#res{
     text-align: left;
+}
+
+footer{
+    margin: auto;
+    width: 650px;
 }
 
 footer p{
