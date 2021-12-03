@@ -9,5 +9,7 @@ function ok(){
         alert("Telefone não informado")
     }else if(email.value == ""){
         alert("Email não informado")
+    }else{
+        alert("Formulário enviado!")
     }
 }

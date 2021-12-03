@@ -8,13 +8,14 @@ body{
     background-color: white;
 }
 
-h1#prin{
+h1{
     text-align: center;
     margin: 20px;
+    text-shadow: 1.2px 1px black;
 }
 
 h2{
-    color: black;
+    color: white;
 }
 
 form{
@@ -26,7 +27,7 @@ form fieldset#principal{
     margin: auto;
     width: 500px;
     line-height: 3em;
-    background-color: #37b6ed6c;
+    background-color: #101561;
     border-radius: 10px;
     box-shadow: 2px 3px 4px black;
 }
@@ -34,10 +35,11 @@ form fieldset#principal{
 fieldset{
     background-color: rgba(0, 0, 0, 0.774);
     color: white;
+    border-radius: 10px;
 }
 
 fieldset input:hover{
-    background-color: #37b6ed6b;
+    background-color: #3609b16b;
     color: white;
     font-size: 1em;
 }
@@ -62,4 +64,3 @@ button:hover{
     background-color: rgb(0, 0, 0);
     color: white;
 }
-
