@@ -1,31 +1,65 @@
 @charset "UTF-8";
 
-:root{
+*{
     font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
-    background-color: rgba(140, 248, 212, 0.411);
-    
+    background-color: white;
 }
 
-h1, h2{
+h1#prin{
+    text-align: center;
+    margin: 20px;
+}
+
+h2{
+    color: black;
+}
+
+form{
     text-align: center;
 }
 
-form fieldset{
-    margin: 51px 20px 20px 51px;
+form fieldset#principal{
+    margin: 20px 20px 3px 3px;
     margin: auto;
-    width: 700px;
-    background-color: rgba(41, 41, 43, 0.082);
+    width: 500px;
     line-height: 3em;
+    background-color: #37b6ed6c;
+    border-radius: 10px;
+    box-shadow: 2px 3px 4px black;
+}
+
+fieldset{
+    background-color: rgba(0, 0, 0, 0.774);
+    color: white;
+}
+
+fieldset input:hover{
+    background-color: #37b6ed6b;
+    color: white;
+    font-size: 1em;
+}
+
+div#enviar{
+    padding: 20px 40px 20px 40px;
+    width: 50px;
+    height: 50px;
+    padding: 15px;
+    background-color: rgba(255, 255, 255, 0);
+    margin: auto;
 }
 
 div#enviar button{
-    margin: 51px 20px 20px 51px;
-    width: 100px;
-    border-radius: 9px;
-    padding: 15px;
-    background-color: white;
+    padding: 10px;
+    max-width: 90px;
+    min-width: 30px;
+    margin: auto;
+}
+
+button:hover{
+    background-color: rgb(0, 0, 0);
+    color: white;
 }
 

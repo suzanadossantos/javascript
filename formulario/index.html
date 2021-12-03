@@ -8,35 +8,33 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div>
-        <h1>Formulário</h1>
-        <h2>Complete com suas informações</h2>
-    </div>
-
-    <form>
-        <fieldset>
-            <label for="nome">Nome *</label>
-            <input type="text" name="nome" id="nome" required>
-        
-        </fieldset>
-        <fieldset>
-            <label for="idade">Idade *</label>
-            <input type="number" name="idade" id="idade" required>
-        </fieldset>
-        <fieldset>
-            <label for="tel">Telefone</label>
-            <input type="number" name="tel" id="tel">
-        </fieldset>  
-        <fieldset>
-            <label for="email">Email *</label>
+       
+    <form> 
+        <h1 id="prin">Formulário</h1>
+        <fieldset id="principal">
+            <h2>Complete com suas informações</h2>
+            <fieldset>
+                <label for="nome">Nome *</label>
+                <br>
+                <input type="text" name="nome" id="nome" required>
+                <br>
+                <label for="idade">Idade</label>
+                <br>
+                <input type="number" name="idade" id="idade">
+                <br>
+                <label for="tel">Telefone *</label>
+                <br>
+                <input type="number" name="tel" id="tel" required>  
+                <br>
+                <label for="email">Email *</label>
+                <br>
                 <input type="email" name="email" id="email" required>
-        </fieldset>       
-    </form>
+        </fieldset>  
 
-    <div id="enviar">
+        <div id="enviar">
         <button type="submit" onclick="ok()">Enviar</button>
-    </div>
-
+        </div>
+    </form>
     <script src="script.js"></script>
 </body>
 </html>
