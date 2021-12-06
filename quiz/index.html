@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Quiz</h1>
+        <h2>Responda as perguntas</h2>
+    </header>
+    <main>
+        <form>
+            <label for="q1">Qual nome verdadeiro do homem aranha?</label>
+            <div>
+                <input type="checkbox" name="q1r-1" id="qr-1"> Peter Stark
+                <input type="checkbox" name="q1r-2" id="q1r-2"> Peter Parker
+                <input type="checkbox" name="q1r-3" id="q1r-3"> Peter Quill 
+            </div>
+            
+            <label for="q2">Qual personagem é da DC?</label>
+            <div>
+                <input type="checkbox" name="q2r-1" id="q2r-1"> Homem aranha
+                <input type="checkbox" name="q2r-2" id="q2r-2"> Viúva Negra
+                <input type="checkbox" name="q2r-3" id="q2r-3"> Batman
+            </div>
+
+            <label for="q3">Qual personagem da DC tem o nome de Barry Allen?</label>
+            <div>
+                <input type="checkbox" name="q3r-1" id="q3r-1"> Flash
+                <input type="checkbox" name="q3r-2" id="q3r-2"> Superman
+                <input type="checkbox" name="q3r-3" id="q3r-3"> Batman
+            </div>
+
+            <input type="button" value="ok" onclick="ok()">
+            <input type="reset" value="limpar">
+
+            <div id="res">
+
+            </div>
+        </form>
+        <script src="script.js"></script>
+    </main>
+</body>
+</html>
