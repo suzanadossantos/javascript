@@ -16,7 +16,7 @@
         <form>
             <label for="q1">Qual nome verdadeiro do homem aranha?</label>
             <div>
-                <input type="checkbox" name="q1r-1" id="qr-1"> Peter Stark
+                <input type="checkbox" name="q1r-1" id="q1r-1"> Peter Stark
                 <input type="checkbox" name="q1r-2" id="q1r-2"> Peter Parker
                 <input type="checkbox" name="q1r-3" id="q1r-3"> Peter Quill 
             </div>
@@ -35,14 +35,18 @@
                 <input type="checkbox" name="q3r-3" id="q3r-3"> Batman
             </div>
 
-            <input type="button" value="ok" onclick="ok()">
+            <link rel="stylesheet" href="pagina-res.html">
+            
             <input type="reset" value="limpar">
-
+            
+            <form method="get" action="/pagina-res.html">
+                <input type="button" value="ok" onclick="ok()">
+            </form>
+            
             <div id="res">
 
             </div>
         </form>
-        <script src="script.js"></script>
     </main>
 </body>
 </html>
