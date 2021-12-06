@@ -1,2 +1,35 @@
 @charset "UTF-8";
 
+body{
+    background-color: rgb(189, 149, 226);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+main {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    font-size: 1em;
+    margin: auto;
+    max-width: 650px;
+    min-width: 200px;
+    border-style: solid;
+}
+
+main input{
+    margin: auto;
+    padding: 7px;
+}
+
+input:hover{
+    background-color: rgb(189, 149, 226);
+}
+

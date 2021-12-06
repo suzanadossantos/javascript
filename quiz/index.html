@@ -10,41 +10,40 @@
 <body>
     <header>
         <h1>Quiz</h1>
-        <h2>Responda as perguntas</h2>
+        <h2>Responda as perguntas sobre os hérois da Marvel e da DC</h2>
     </header>
     <main>
         <form>
             <label for="q1">Qual nome verdadeiro do homem aranha?</label>
             <div>
-                <input type="" name="q1r-1" id="q1r-1"> Peter Stark
-                <input type="checkbox" name="q1r-2" id="q1r-2"> Peter Parker
-                <input type="checkbox" name="q1r-3" id="q1r-3"> Peter Quill 
+                <input type="radio" name="q1r" id="q1r-1"> Peter Stark
+                <input type="radio" name="q1r" id="q1r-2"> Peter Parker
+                <input type="radio" name="q1r" id="q1r-3"> Peter Quill 
             </div>
-            
+            <hr>
+            <br>
             <label for="q2">Qual personagem é da DC?</label>
             <div>
-                <input type="checkbox" name="q2r-1" id="q2r-1"> Homem aranha
-                <input type="checkbox" name="q2r-2" id="q2r-2"> Viúva Negra
-                <input type="checkbox" name="q2r-3" id="q2r-3"> Batman
+                <input type="radio" name="q2r" id="q2r-1"> Homem aranha
+                <input type="radio" name="q2r" id="q2r-2"> Viúva Negra
+                <input type="radio" name="q2r" id="q2r-3"> Batman
             </div>
-
+            <br>
+            <hr>
             <label for="q3">Qual personagem da DC tem o nome de Barry Allen?</label>
             <div>
-                <input type="checkbox" name="q3r-1" id="q3r-1"> Flash
-                <input type="checkbox" name="q3r-2" id="q3r-2"> Superman
-                <input type="checkbox" name="q3r-3" id="q3r-3"> Batman
+                <input type="radio" name="q3r" id="q3r-1"> Flash
+                <input type="radio" name="q3r" id="q3r-2"> Superman
+                <input type="radio" name="q3r" id="q3r-3"> Batman
             </div>
-
-            <input type="button" value="ok" onclick="ok()">
-            <input type="reset" value="limpar">
-
-            <div id="res"></div>
+            <br>
+            <div id="botao">
+                <input type="button" value="ok" onclick="ok()">
+                <input type="reset" value="limpar">
+            </div>
 
             <script src="script.js"></script>
         </form>
     </main>
-    <footer>
-        <p>Desenvolvido por Suzana dos Santos</p>
-    </footer>
 </body>
 </html>
