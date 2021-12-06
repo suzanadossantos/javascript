@@ -3,15 +3,22 @@ function ok(){
     var q2=document.querySelector("input#q2r-3")
     var q3=document.querySelector("input#q3r-1")
     var res= document.querySelector("div#res")
-    res.innerHTML="<h2>Respostas</h2>"
 
     if((q1.checked) && (q2.checked) && (q3.checked)){
-        res.innerHTML+="<p>Você acertou todas as questões</p>"
+        alert("Você acertou todas as questões!")
+    } else if((q1.checked) && (q2.checked)){
+        alert("Você acertou a primeira e a segunda questão")
+    } else if((q1.checked) && (q3.checked)){
+        alert("Você acertou a primeira e a terceira questão")
+    }else if((q2.checked) && (q3.checked)){
+        alert("Você acertou a segunda e a terceira questão")
     } else if(q1.checked){
-        res.innerHTML+="<p>Você acertou a primeira questão</p>"
-    } else if(q2.checked){
-        res.innerHTML+="<p>Você acertou a segunda questão</p>"
+        alert("Você acertou a primeira questão!")
+    }else if(q2.checked){
+        alert("Você acertou a segunda questão!")
     }else if(q3.checked){
-        res.innerHTML+="<p>Você acertou a terceira questão</p>"
+        alert("Você acertou a terceira questão!")
+    }else{
+        alert("Infelizmente você não acertou nenhuma questão")
     }
 }
