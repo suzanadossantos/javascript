@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2:wght@400;500&display=swap');
 
 body{
-    background-image: linear-gradient(to bottom, rgb(170, 12, 170), rgba(255, 249, 249, 0.637));
+    background-color:white;
     background-repeat: no-repeat;
     font-family: 'Baloo Bhaijaan 2', Arial, Helvetica, sans-serif;
 }
@@ -17,7 +17,7 @@ h2{
 }
 
 main {
-    background-color: white;
+    background-image: linear-gradient(to bottom, rgba(0, 4, 255, 0.76), rgba(0, 0, 255, 0.096));
     border-radius: 10px;
     padding: 20px;
     font-size: 1em;
@@ -34,6 +34,7 @@ main input{
 }
 
 input:hover{
-    background-color: rgba(189, 149, 226, 0.822);
+    background-color: rgb(0, 0, 0);
+    color: white;
 }
 
