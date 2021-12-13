@@ -8,23 +8,23 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="col-10">
-        <h1>Minha Playlist</h1>
-        <p>Adicione músicas e forme sua Playlist</p>
-        <form>
-            <input type="text" name="musica" id="musica">
-            <input type="button" value="adicionar" onclick="ok()">
-        </form>
-        <div class="col-10">
-            <div id="music">
-                <ul>
-                    <li>musica 1 <button>x</button></li>
-                    <li>musica 2 <button>x</button></li>
-                    <li>musica 3 <button>x</button></li>
-                </ul>
-            </div>
+    <main>
+        <div id="col-10">
+            <h1>Minha Playlist</h1>
+            <h2>Adicione músicas e forme sua Playlist</h2>
+            <form>
+                <input type="text" name="musica" id="musica">
+                <input type="button" value="adicionar" onclick="ok()">
+                <input type="submit" value="limpar">
+
+                <div id="music">
+                    
+                </div>
+            </form>
+        
         </div>
-    </div>
+    </main>
+    
     <script src="script.js"></script>
 </body>
 </html>
