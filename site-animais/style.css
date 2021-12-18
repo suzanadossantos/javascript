@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+body{
+    background-color: cornsilk;
+}
+
+header{
+    text-decoration: none;
+    color: black;
+}
+
+header h1{
+    text-align: center;
+}
+
+header h2{
+    text-align: center;
+}
+
+header a{
+    text-decoration: none;
+    color: cadetblue;
+}
+
+main{
+
+}
+
+header{
+    
+}
+
