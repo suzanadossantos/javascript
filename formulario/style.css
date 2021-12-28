@@ -39,7 +39,7 @@ fieldset{
 }
 
 fieldset input:hover{
-    background-color: #3609b16b;
+    background-color: #3609b100;
     color: white;
     font-size: 1em;
 }
