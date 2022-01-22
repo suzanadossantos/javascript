@@ -14,9 +14,8 @@ header h1{
 }
 
 section#conteudo{
-   
     background-image: linear-gradient(to right, rgba(0, 0, 255, 0.349), rgba(8, 153, 197, 0.932));
-    width: 50%;
+    width: 280px;
     margin: auto;
     margin-top: 10px;
     padding: 20px;
