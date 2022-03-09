@@ -1,0 +1,122 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+
+    background-color: rgb(255, 255, 255);
+}
+
+h1{
+    font-family: 'Hubballi', cursive;
+    font-size: 40px;
+    text-align: center;
+    margin: 15px;
+}
+
+input{
+    color: #FFF;
+    
+    padding: 17px;
+    outline: none;
+    border-radius: 25%;
+
+    font-size: 24px;
+    font-family: 'Hubballi', cursiveGeorgia;
+}
+
+.num{
+    width: 64px;
+    height: 67px; 
+    margin: 2px;
+
+    cursor: pointer;
+
+    border: 1.8px solid #0000004b;
+}
+
+.num:hover{
+    background-color: #ece4e44b;
+}
+
+.text{
+    width: 225px;
+    height: 26px;
+    margin-bottom: 12px;
+
+    border-radius: 22px;
+
+    letter-spacing: 5px;
+    text-align: center;
+}
+
+.text1{
+    width: 50px;
+    height: 26px;
+    margin-bottom: 12px;
+
+    border-radius: 22px;
+    border: 0.2px solid rgba(8, 8, 8, 0.411);
+    box-shadow: 4px 3px 3px rgba(0, 0, 0, 0.171);
+
+    letter-spacing: 5px;
+    text-align: center;
+
+    cursor: pointer;
+
+    color: black;
+}
+
+.text1:hover{
+    background-color: #0801012a;
+}
+
+div.main{
+    width: 350px;
+
+    margin: auto;
+    margin-top: 70px;
+    padding: 20px;
+
+    border-radius: 22px;
+    box-shadow: 4px 3px 3px rgba(0, 0, 0, 0.171);
+
+    background-color: #0f06060a;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+
+.maincolor{
+    background-color: white;
+    color: black;
+    box-shadow: 4px 3px 3px rgba(0, 0, 0, 0.171);
+}
+
+.red{
+    background-color: #e71f18e3;
+    border: 1.8px solid #0000004b;
+}
+
+.red:hover{
+    background-color: #0801012a;
+}
+
+.blue{
+    background-color: #261da0;
+    border: 1.8px solid #0000004b;
+}
+
+.blue:hover{
+    background-color: #0801012a;
+}
