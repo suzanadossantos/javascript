@@ -30,6 +30,10 @@ header a{
     width: 200px;
 }
 
+header a:hover{
+    background-color: rgba(0, 0, 0, 0.062);
+}
+
 main img{
     max-width: 60%;
     min-width: 40%;
@@ -43,7 +47,7 @@ main{
     margin: auto;
     max-width: 900px;
     min-width: 300px;
-    border-radius: 10px;
+    border-radius: 0px 0px 10px 10px;
     box-shadow: 2px 5px 6px;
 }
 
