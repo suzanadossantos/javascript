@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+
+h1{
+    font-size: 27px;
+    text-align: center;
+    margin: 20px;
+}
+
+ul{
+    color: black(0, 0, 0);
+    font-size: 20px;
+    text-align: left;
+    padding: 25px;
+    margin: 20px;
+    list-style: none;
+}
+
+a:hover{
+    color: rgba(0, 0, 0, 0.514);
+}
+
+iframe{
+    border: 2px solid black;
+    display: block;
+    margin: auto;
+    width: 90%;
+    height: 450px;
+}
+
+p#footer{
+    font-size: 20px;
+    text-align: center;
+    margin: 25px;
+}
