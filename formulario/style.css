@@ -1,66 +1,77 @@
 @charset "UTF-8";
 
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 
 body{
-    background-color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    background-image: linear-gradient(325deg, #ffff3a 0, #ffff25 12.5%, #ffff12 25%, #ffff04 37.5%, #ebfd02 50%, #bce209 62.5%, #93ca12 75%, #6eb419 87.5%, #4da21f 100%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
 }
 
 h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 28px;
     text-align: center;
-    margin: 20px;
-    text-shadow: 1.2px 1px black;
-}
-
-h2{
-    color: white;
+    padding: 20px;
 }
 
 form{
-    text-align: center;
-}
-
-form fieldset#principal{
-    margin: 20px 20px 3px 3px;
+    background-color: white;
     margin: auto;
-    width: 500px;
-    line-height: 3em;
-    background-color: #101561;
-    border-radius: 10px;
-    box-shadow: 2px 3px 4px black;
+    padding: 25px;
+    box-shadow: 1.8px 2px 2px rgba(0, 0, 0, 0.425);
+    border-radius: 5px;
+    width: 50vw;
+    height: 100%;
 }
 
-fieldset{
-    background-color: rgba(0, 0, 0, 0.774);
-    color: white;
-    border-radius: 10px;
+div.input-group{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 30px;
+    margin: 25px;
 }
 
-fieldset input:hover{
-    background-color: #3609b100;
-    color: white;
-    font-size: 1em;
+.nome, .sobrenome, .email, .telefone{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    margin: 10px;
 }
 
-div#enviar{
-    padding: 20px 40px 20px 40px;
-    width: 50px;
-    height: 50px;
-    padding: 15px;
-    background-color: rgba(255, 255, 255, 0);
+input#nome, input#sobrenome, input#email, input#telefone{
+   border: 2px solid black;
+   border-radius: 5px;
+   width: 40vw;
+   height: 5vh;
+   padding: 10px;
+}
+
+div.footer{
+    padding: 20px;
+}
+
+div.footer button{
+    cursor: pointer;
+    display: block;
     margin: auto;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    background-color: white;
+    width: 15vw;
+    height: 4vh;
 }
 
-div#enviar button{
-    padding: 10px;
-    max-width: 90px;
-    min-width: 30px;
-    margin: auto;
-}
-
-button:hover{
-    background-color: rgb(0, 0, 0);
-    color: white;
+div.footer button:hover{
+    transition: 2ms;
+    background-color: rgba(0, 0, 0, 0.13);
 }

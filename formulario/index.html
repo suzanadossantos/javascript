@@ -1,40 +1,44 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulario</title>
+    <title>Formulário</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-       
-    <form> 
+    <form action="" id="formulario">
         <h1>Formulário</h1>
-        <fieldset id="principal">
-            <h2>Complete com suas informações</h2>
-            <fieldset>
-                <label for="nome">Nome *</label>
-                <br>
-                <input type="text" name="nome" id="nome" required>
-                <br>
-                <label for="idade">Idade</label>
-                <br>
-                <input type="number" name="idade" id="idade">
-                <br>
-                <label for="tel">Telefone *</label>
-                <br>
-                <input type="number" name="tel" id="tel" required>  
-                <br>
-                <label for="email">Email *</label>
-                <br>
-                <input type="email" name="email" id="email" required>
-        </fieldset>  
+        <div class="input-group">
+            <label for="nome" class="nome">
+                Nome:
+                <input type="text" name="nome" id="nome" placeholder="Insira seu nome">
+            </label>
 
-        <div id="enviar">
-        <button type="submit" onclick="ok()">Enviar</button>
+            <label for="sobrenome" class="sobrenome">
+                Sobrenome:
+                <input type="text" name="sobrenome" id="sobrenome" placeholder="Insira seu sobrenome">
+            </label>
+
+            <label for="email" class="email">
+                E-mail:
+                <input type="email" name="email" id="email" placeholder="Insira seu e-mail">
+            </label>
+
+            <label for="telefone" class="telefone">
+                Telefone:
+                <input type="tel" name="telefone" id="telefone" placeholder="Insira seu telefone">
+            </label>
+        </div>
+        
+        <div class="footer">
+            <button type="button" class="botao" onclick="validar()">
+                Enviar
+            </button>
         </div>
     </form>
+
     <script src="script.js"></script>
 </body>
 </html>
