@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+/* PT SANS */
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+/* ARIMA */
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100;200;300;400;500;600;700&display=swap');
+
+:root{
+    --amarelo: #FFD819;
+    --vermelho: #FF1200;
+    --verde: #13BD5A;
+    --preto: #000000;
+    --branco: #FFFFFF;
+
+    --titulo: "Arima", cursive;
+    --subtitulo: 'PT Sans', sans-serif;
+    --conteudo: Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.titulo{
+    font-family: var(--titulo);
+}
+
+.subtitulo{
+    font-family: var(--subtitulo);
+}
+
+.conteudo{
+    font-family: var(--conteudo);
+}
+
+/* HEADER */
+
+header{
+    background-color: var(--amarelo);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 10px;
+}
+
+header #logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 10px;
+}
+
+#logo img{
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 1px 1.2px 1px black;
+}
+
+#logo h1{
+    font-family: var(--conteudo);
+    font-size: 1.7em;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 10px;
+}
+
+nav div.link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+nav div.link a{
+    font-family: var(--conteudo);
+    font-size: 1.2em;
+    text-decoration: none;
+    color: var(--preto);
+}
+
+nav div.link a:hover{
+    color: var(--branco);
+    text-shadow: 0.2px 1px 1px black;
+}
