@@ -7,3 +7,4 @@ Olá! Aqui é onde eu coloco meus projetos que utilizam JavaScript
 <p>➕❌ Calculadora: <a href="https://suzanadossantos.github.io/javascript/calculadora/">Link</a>.<p/>
 <p>🕔 Relógio: <a href="https://suzanadossantos.github.io/javascript/relogio/">Link</a>.<p/>
 <p>🎨 Gerador de cores: <a href="https://suzanadossantos.github.io/javascript/gerador-de-cores/">Link</a>.<p/>
+<p>🍕 Site Pizzaria: <a href="https://suzanadossantos.github.io/javascript/site-pizzaria/">Link</a>.<p/>
