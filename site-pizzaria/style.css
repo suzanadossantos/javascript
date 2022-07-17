@@ -25,6 +25,10 @@
     text-decoration: none;
 }
 
+body{
+    background-color: var(--preto);
+}
+
 .titulo{
     font-family: var(--titulo);
 }
@@ -96,4 +100,80 @@ nav div.link a{
 nav div.link a:hover{
     color: var(--branco);
     text-shadow: 0.2px 1px 1px black;
+}
+
+/* MAIN */
+
+main{
+    min-width: 300px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: var(--branco);
+}
+
+main div#apres{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    gap: 15px;
+    padding: 10px;
+    margin: 20px;
+}
+
+div#apres img{
+    width: 40%;
+    border-radius: 15%;
+    box-shadow: 4px 4px 2px rgba(0, 0, 0, 0.349);
+}
+
+div#apres h2{
+    font-family: var(--titulo);
+    font-size: 2.2em;
+    font-weight: 400;
+    color: var(--preto);
+}
+
+div#apres h2 span{
+    color: var(--vermelho);
+}
+
+div#historia{
+    font-family: var(--conteudo);
+    background-color: var(--vermelho);
+    color: var(--branco);
+    margin: 50px -20px 50px -20px;
+    padding: 50px 10%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+div#historia div.his{
+    font-family: var(--subtitulo);
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+
+div#historia div.his::after{
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.63);
+    position: absolute;
+    left: 0px;
+    top: -20%;
+}
+
+div#historia div.texto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
 }

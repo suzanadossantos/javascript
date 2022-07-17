@@ -4,4 +4,7 @@
        flex-direction: column; 
     }
 
+    main div#apres{
+        flex-direction: column-reverse;
+    }
 }
