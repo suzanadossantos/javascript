@@ -1,6 +1,6 @@
 # JavaScript 💻
 
-Olá! Aqui é onde eu coloco meus projetos que utilizam JavaScript
+Olá! Aqui é onde eu coloco meus projetos e exercícios que utilizam JavaScript
 
 <p>🖥️Formulário simples: <a href="https://suzanadossantos.github.io/javascript/formulario/">Link</a>.</p>
 <p>🐳 Site sobre animais: <a href="https://suzanadossantos.github.io/javascript/site-animais/">Link</a>.<p/>
