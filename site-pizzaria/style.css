@@ -41,6 +41,24 @@ body{
     font-family: var(--conteudo);
 }
 
+.subtitulo2{
+    font-family: var(--subtitulo);
+    flex-basis: 40%;
+    position: relative;
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+
+.subtitulo2::after{
+    content: '';
+    width: 100%;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.63);
+    position: absolute;
+    left: 0px;
+    top: -20%;
+}
+
 /* HEADER */
 
 header{
@@ -152,28 +170,88 @@ div#historia{
     gap: 15px;
 }
 
-div#historia div.his{
-    font-family: var(--subtitulo);
-    flex-basis: 40%;
-    position: relative;
-    margin-left: 50px;
-    margin-bottom: 20px;
-}
-
-div#historia div.his::after{
-    content: '';
-    width: 100%;
-    height: 1px;
-    background-color: rgba(255, 255, 255, 0.63);
-    position: absolute;
-    left: 0px;
-    top: -20%;
-}
-
 div#historia div.texto{
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-direction: column;
     gap: 20px;
+}
+
+div#cardapio{
+    margin: 40px -20px 50px -20px;
+    padding: 40px 10%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+div#cardapio .subtitulo2::after{
+    background-color: var(--preto);
+}
+
+div#cardapio div.pizzas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+div#cardapio div.pizzas div.pizzas-1, div.pizzas-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 90px;
+}
+
+div#cardapio div.pizzas-1 div.p1, div.p2{
+    background-color: var(--amarelo);
+}
+
+div#cardapio div.pizzas-2 div.p1, div.p2{
+    background-color: var(--amarelo);
+}
+
+div#cardapio div.p1, div.p2{
+    padding: 25px 15px;
+}
+
+div#cardapio span.preco{
+    position: relative;
+    top: 20px;
+    left: -40px;
+    background-color: var(--branco);
+    padding: 7px;
+    border-style: solid;
+    border-color: var(--preto);
+    font-family: var(--conteudo);
+    font-size: 1em;
+}
+
+div#cardapio div.imagem{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    font-family: var(--conteudo);
+    font-size: 1.2em;
+}
+
+div#cardapio img{
+    width: 25vw;
+}
+
+div#cardapio div.imagem button{
+    background-color: var(--branco);
+    cursor: pointer;
+    border-style: none;
+    padding: 5px;
+}
+
+div#cardapio div.imagem button:hover{
+    background-color: rgb(216, 211, 211);
 }
