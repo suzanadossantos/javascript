@@ -7,4 +7,13 @@
     main div#apres{
         flex-direction: column-reverse;
     }
+
+    
+    div#cardapio div.p1, div.p2{
+        width: 30vw;
+    }
+
+    div#cardapio div.pizzas div.pizzas-1, div.pizzas-2{
+        flex-direction: column;
+    }
 }
