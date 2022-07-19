@@ -346,3 +346,40 @@ div#localizacao div.loc iframe{
 div#localizacao div.link a:hover{
     color: var(--vermelho);
 }
+
+/* FOOTER */
+
+footer{
+    min-width: 300px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    color: var(--preto);
+    background-color: var(--amarelo);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+footer h2{
+    font-family: var(--conteudo);
+    font-size: 1.2em;
+}
+
+footer h2 span{
+    color: var(--branco);
+}
+
+footer div.icones{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    margin: 10px;
+}
+
+footer div.icones a:hover{
+    background-color: rgba(255, 255, 255, 0.281);
+}
