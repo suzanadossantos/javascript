@@ -29,4 +29,16 @@
         height: 20vh;
         padding: 20px;
     }
+
+    div#localizacao div.loc{
+        flex-direction: column;
+    }
+
+    div#localizacao div.loc img{
+        width: 50vw;
+    }
+    
+    div#localizacao div.loc iframe{
+        width: 50vw;
+    }
 }

@@ -41,6 +41,26 @@ body{
     font-family: var(--conteudo);
 }
 
+div.link{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+div.link a{
+    font-family: var(--conteudo);
+    font-size: 1.2em;
+    text-decoration: none;
+    color: var(--preto);
+}
+
+div.link a:hover{
+    color: var(--branco);
+    text-shadow: 0.2px 1px 1px black;
+}
+
 .subtitulo2{
     font-family: var(--subtitulo);
     flex-basis: 40%;
@@ -98,26 +118,6 @@ header nav{
     justify-content: space-between;
     gap: 15px;
     padding: 10px;
-}
-
-nav div.link{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-    gap: 5px;
-}
-
-nav div.link a{
-    font-family: var(--conteudo);
-    font-size: 1.2em;
-    text-decoration: none;
-    color: var(--preto);
-}
-
-nav div.link a:hover{
-    color: var(--branco);
-    text-shadow: 0.2px 1px 1px black;
 }
 
 /* MAIN */
@@ -309,4 +309,40 @@ div#avaliacoes div.conteudo div.coment div.av::after{
     top: 20px;
 }
 
-    
+div#localizacao{
+    margin: 30px -20px 30px -20px;
+    padding: 30px 10%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    font-family: var(--conteudo);
+}
+
+div#localizacao .subtitulo2::after{
+    background-color: var(--preto);
+}
+
+div#localizacao div.loc{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin: 20px;
+}
+
+div#localizacao div.loc img{
+    width: 30vw;
+    height: 50vh;
+}
+
+div#localizacao div.loc iframe{
+    width: 30vw;
+    height: 50vh;
+}
+
+div#localizacao div.link a:hover{
+    color: var(--vermelho);
+}
