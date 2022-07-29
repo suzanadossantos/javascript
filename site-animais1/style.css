@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+/* ARIMA */
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@100;200;300;400;500;600;700&display=swap');
+
+:root{
+    --verde: #10c25a;
+    --preto: #000000;
+    --branco: #FFFFFF;
+
+    --arima: "Arima", cursive;
+    --arial: Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: var(--preto);
+    width: 100%;
+}
+
+/* HEADER */
+
+header{
+    background-color: var(--verde);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+}
+
+header h1{
+    font-family: var(--arima);
+    font-size: 1.7rem;
+    color: var(--branco);
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+header nav a{
+    font-family: var(--arima);
+    font-size: 1.2rem;
+    color: var(--branco);
+}
+
+header nav a:hover{
+    color: var(--preto);
+    transition: 2ms;
+}
+
+/* MAIN */
+
+main{
+    min-width: 300px;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+    background-color: var(--branco);
+}
+
+/* FOOTER */
+
+footer{
+    background-color: var(--verde);
+}
