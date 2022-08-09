@@ -72,6 +72,34 @@ main{
     background-color: var(--branco);
 }
 
+main div#apres h2{
+    font-family: var(--arima);
+    font-size: 1.7rem;
+    margin: 20px;
+    text-align: center;
+}
+
+main div#animais{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+}
+
+main div#animais h3{
+    font-family: var(--arial);
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+main div#animais img{
+    padding: 20px;
+    display: flex;
+    margin: auto;
+    width: 40%;
+}
+
 /* FOOTER */
 
 footer{
