@@ -4,9 +4,35 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <form action="#" method="get">
+        <h1>Formulário</h1>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+
+            <p>
+                <label for="inome">Nome</label>
+                <input type="text" name="nome" id="inome" required minlength="4" maxlength="20" size="20" autocomplete="name">
+            </p>
+
+            <p>
+                <label for="iemail">Email</label>
+                <input type="email" name="email" id="iemail" required minlength="10" maxlength="20" size="20" autocomplete="email">
+            </p>
+
+            <p>
+                <label for="itel">Telefone</label>
+                <input type="tel" name="tel" id="itel" minlength="9" maxlength="10" size="15" autocomplete="tel">
+            </p>
+
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpar">
+            </p>
+        </fieldset>
+    </form>
 </body>
 </html>
