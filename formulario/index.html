@@ -14,22 +14,27 @@
             <legend>Dados Pessoais</legend>
 
             <p>
-                <label for="inome">Nome</label>
+                <label for="inome">Nome*</label>
                 <input type="text" name="nome" id="inome" required minlength="4" maxlength="20" size="20" autocomplete="name">
             </p>
 
             <p>
-                <label for="iemail">Email</label>
-                <input type="email" name="email" id="iemail" required minlength="10" maxlength="20" size="20" autocomplete="email">
+                <label for="iemail">Email*</label>
+                <input type="email" name="email" id="iemail" required minlength="10" size="20" autocomplete="email">
             </p>
 
             <p>
                 <label for="itel">Telefone</label>
-                <input type="tel" name="tel" id="itel" minlength="9" maxlength="10" size="15" autocomplete="tel">
+                <input type="tel" name="tel" id="itel" minlength="9" maxlength="15" size="20" autocomplete="tel">
             </p>
 
             <p>
-                <input type="submit" value="Enviar">
+                <label for="imens">Sua mensagem</label>
+                <textarea name="mens" id="imens" cols="30" rows="5"></textarea>
+            </p>
+
+            <p id="botoes">
+                <input type="submit" value="Enviar" onclick="enviar()">
                 <input type="reset" value="Limpar">
             </p>
         </fieldset>

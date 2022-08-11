@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(22, 117, 240, 0.87);
+    border-radius: 5px;
+}
+
+form fieldset{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+}
+
+form fieldset h1{
+    text-align: center;
+    font-family: cursive;
+    font-size: 1.7rem;
+}
+
+form fieldset legend{
+    font-family: cursive;
+    font-size: 1.2rem;
+    color: white;
+}
+
+form p{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 10px;
+    padding-bottom: 10px;
+    font-family: cursive;
+    font-size: 1rem;
+}
+
+form p input, textarea{
+    padding: 3px;
+    border-radius: 5px;
+}
+
+form p#botoes{
+    display: flex;
+    flex-direction: row;
+}
+
+form p#botoes input{
+    font-family: cursive;
+    cursor: pointer;
+    border: 1px solid rgba(0, 0, 0, 0.555);
+    color: black;
+    box-shadow: 1px 1.2px 1px rgba(0, 0, 0, 0.664);
+    background-color: white;
+}
+
+form p#botoes input:hover{
+    background-color: rgb(170, 170, 170);
+}
