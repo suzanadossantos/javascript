@@ -6,7 +6,7 @@
     padding: 0;
     margin: 0;
     text-decoration: none;
-    min-height: 100%;
+    box-sizing: border-box;
 }
 
 body{
@@ -16,17 +16,17 @@ body{
 
 h1{
     text-align: center;
-    font-size: 2.6em;
+    font-size: 1.7rem;
     margin: 10px;
 }
 
-h2{
+p{
     text-align: center;
-    font-size: 1.6em;
+    font-size: 1.4em;
     margin: 5px;
 }
 
-main { 
+form{ 
     background-image: linear-gradient(to top, rgba(0, 3, 3, 0.87), rgb(50, 216, 216));
 
     border-radius: 10px;
@@ -37,25 +37,40 @@ main {
     margin: auto;
     max-width: 500px;
     min-width: 200px;
-    height: 370px;
     
-    font-size: 1.2em;
+    font-size: 1.2rem;
     color: white;
 }
 
-main input{
+form p{
+    font-size: 1.4rem;
+}
+
+form div.questoes{
+    display: flex;
+    flex-direction: row;
+}
+
+form label{
     margin: 2px 3px 2px 6px;
     padding: 7px;
     text-decoration: none;
     border-radius: 5px;
     font-family: 'Baloo Bhaijaan 2', Arial, Helvetica, sans-serif;
-    font-size: 0.8em;
+    font-size: 1.2rem;
     text-align: center;
 }
 
-input:hover{
-    background-color: rgb(0, 0, 0);
+div#botao input{
+    border: none;
+    padding: 5px;
+    font-size: 1rem;
+}
+
+div#botao input:hover{
+    background-color: rgba(49, 47, 47, 0.959);
     color: white;
     transition: 2ms;
     cursor: pointer;
+    border: 1px solid white;
 }

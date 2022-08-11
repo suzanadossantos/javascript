@@ -10,39 +10,74 @@
 <body>
     <header>
         <h1>Quiz</h1>
-        <h2>Responda algumas perguntas sobre os heróis da Marvel e da DC</h2>
+        <p>Responda algumas perguntas sobre os heróis da Marvel e da DC</p>
     </header>
     <main>
         <form>
-            <label for="q1">Qual nome verdadeiro do <strong> homem aranha</strong>?</label>
-            <div>
-                <input type="radio" name="q1r" id="q1r-1"> Peter Stark
-                <input type="radio" name="q1r" id="q1r-2"> Peter Parker
-                <input type="radio" name="q1r" id="q1r-3"> Peter Quill 
+            <p>Qual nome verdadeiro do <strong> homem aranha</strong>?</p>
+            <div class="questoes">
+                <p>
+                    <input type="radio" name="q1r" id="q1r-1">
+                    <label for="q1r-1">Peter Stark</label>
+                    
+                </p>
+                
+                <p>
+                    <input type="radio" name="q1r" id="q1r-2">
+                    <label for="q1r-2">Peter Parker</label>
+                </p>
+
+                <p>
+                    <input type="radio" name="q1r" id="q1r-3">
+                    <label for="q1r-3">Peter Quill</label>
+                </p>
             </div>
-            <hr>
-            <br>
-            <label for="q2">Qual personagem é da <strong>DC</strong> ?</label>
-            <div>
-                <input type="radio" name="q2r" id="q2r-1"> Homem aranha
-                <input type="radio" name="q2r" id="q2r-2"> Viúva Negra
-                <input type="radio" name="q2r" id="q2r-3"> Batman
+
+            <p>Qual personagem é da <strong>DC</strong>?</p>
+            <div class="questoes"> 
+                <p>
+                    <input type="radio" name="q2r" id="q2r-1">
+                    <label for="q2r-1">Homem aranha</label>
+                </p>
+               
+                <p>
+                    <input type="radio" name="q2r" id="q2r-2">
+                    <label for="q2r-2">Viúva Negra</label>
+                </p>
+
+                <p>
+                    <input type="radio" name="q2r" id="q2r-3">
+                    <label for="q2r-3">Batman</label>
+                </p>
             </div>
-            <br>
-            <hr>
-            <label for="q3">Qual personagem da DC tem o nome de <strong>Barry Allen</strong>?</label>
-            <div>
-                <input type="radio" name="q3r" id="q3r-1"> Flash
-                <input type="radio" name="q3r" id="q3r-2"> Superman
-                <input type="radio" name="q3r" id="q3r-3"> Batman
+            
+            <p>Qual personagem da DC tem o nome de <strong>Barry Allen</strong>?</p>
+            <div class="questoes">
+                <p>
+                    <input type="radio" name="q3r" id="q3r-1">
+                    <label for="q3r-1">Flash</label>
+                </p>
+                
+                <p>
+                    <input type="radio" name="q3r" id="q3r-2">
+                    <label for="q3r-2">Superman</label>
+                </p>
+
+                <p>
+                    <input type="radio" name="q3r" id="q3r-3">
+                    <label for="q3r-3">Batman</label>
+                </p>
             </div>
-            <br>
+            
             <div id="botao">
-                <input type="button" value="ok" onclick="ok()">
-                <input type="reset" value="limpar">
+                <p>
+                    <input type="button" value="ok" onclick="ok()">
+                    <input type="reset" value="limpar">
+                </p>
             </div>
-            <script src="script.js"></script>
         </form>
+
+        <script src="script.js"></script>
     </main>
 </body>
 </html>
