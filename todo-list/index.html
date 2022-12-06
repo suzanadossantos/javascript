@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Lista de tarefas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Lista de tarefas</h1>
+    <div>
+        <label for="itarefa">Tarefa: </label>
+        <input type="text" name="tarefa" id="itarefa" >
+        <button onclick="adicionarTarefa()" id="button">adicionar</button>
+    </div>
+
+    <fieldset id="tarefas">
+        <ul id="ul">
+            <li onclick="concluirTarefa()">
+                Ler
+                <span class="material-symbols-outlined apagar" onclick="apagarTarefa(this)">
+                    delete
+                </span>
+            </li>
+            <li onclick="concluirTarefa()">
+                Correr
+                <span class="material-symbols-outlined apagar" onclick="apagarTarefa(this)">
+                    delete
+                </span>
+            </li>
+        </ul>
+    </fieldset>
+
+    <div class="botoes">
+        <button onclick="apagarTudo()">Apagar</button>
+        <button onclick="concluirTudo()">Concluir</button>   
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

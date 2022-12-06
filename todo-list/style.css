@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: cursive;
+    background-color: #FFF;
+}
+
+h1{
+    text-align: center;
+    margin: 20px;
+    font-size: 2rem;
+}
+
+div{
+    margin: 20px;
+    font-size: 1.2rem;
+}
+
+div label{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div input#itarefa{
+    padding: 2px 5px;
+    font-size: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button{
+    cursor: pointer;
+    padding: 3px 20px;
+    border: 1px solid #000;
+    border-radius: 2px;
+    background-color: #FFF;
+    font-size: 0.9rem;
+}
+
+fieldset{
+    margin: 20px;
+    font-size: 1.2rem;
+}
+
+fieldset ul{
+    padding: 5px 10px;
+    font-size: 1rem;
+}
+
+fieldset ul li{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    padding: 10px;
+    background-color: #057EF5;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+fieldset ul li:hover{
+    opacity: 0.7;
+}
+
+button.botoes{
+    margin: 20px;
+}
