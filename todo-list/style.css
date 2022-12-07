@@ -58,7 +58,7 @@ fieldset ul li{
     justify-content: space-between;
     list-style: none;
     padding: 10px;
-    background-color: #057EF5;
+    background-color: #3b424944;
     margin-bottom: 5px;
     cursor: pointer;
 }
@@ -69,4 +69,11 @@ fieldset ul li:hover{
 
 button.botoes{
     margin: 20px;
+}
+
+@media screen and (min-width: 850px) {
+    div, fieldset{
+        width: 80vw;
+        margin: 20px auto;
+    }
 }
