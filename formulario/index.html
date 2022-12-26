@@ -9,34 +9,32 @@
 </head>
 <body>
     <form action="#" method="get">
-        <h1>Formulário</h1>
         <fieldset>
-            <legend>Dados Pessoais</legend>
+        
+            <h1>Formulário de inscrição</h1>
 
-            <p>
-                <label for="inome">Nome*</label>
-                <input type="text" name="nome" id="inome" required minlength="4" maxlength="20" size="20" autocomplete="name">
+            <p class="formulario">
+                <input type="text" name="nome" id="inome" required minlength="4" maxlength="20" size="20" autocomplete="name" placeholder="Nome...">
             </p>
 
-            <p>
-                <label for="iemail">Email*</label>
-                <input type="email" name="email" id="iemail" required minlength="10" size="20" autocomplete="email">
+            <p class="formulario">
+                <input type="email" name="email" id="iemail" required minlength="10" size="20" autocomplete="email" placeholder="Email...">
             </p>
 
-            <p>
-                <label for="itel">Telefone</label>
-                <input type="tel" name="tel" id="itel" minlength="9" maxlength="15" size="20" autocomplete="tel">
+            <p class="formulario">
+                <input type="password" name="senha" id="isenha" required minlength="6" maxlength="15" size="20" autocomplete="tel" placeholder="Senha...">
             </p>
 
-            <p>
-                <label for="imens">Sua mensagem</label>
-                <textarea name="mens" id="imens" cols="30" rows="5"></textarea>
+            <p id="comunidade">
+                <label for="icomunidade">Junte-se à comunidade</label>
+                <input type="checkbox" name="comunidade" id="icomunidade">
             </p>
 
-            <p id="botoes">
-                <input type="submit" value="Enviar" onclick="enviar()">
-                <input type="reset" value="Limpar">
+            <p id="botao">
+                <input type="submit" value="Enviar">
             </p>
+
+            <p id="login">Já é um membro?<i> Faça login</i></p>
         </fieldset>
     </form>
 </body>

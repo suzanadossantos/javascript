@@ -14,64 +14,74 @@ body{
 form{
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 20px;
-    width: 400px;
     margin: 20px auto;
     padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    background-color: rgba(22, 117, 240, 0.87);
-    border-radius: 5px;
 }
 
 form fieldset{
+    width: 300px;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: 10px;
+    align-items: center;
+    padding: 30px;
+    color: rgb(0, 0, 0);
+    background-color: #fff;
+    border-radius: 5px;
 }
 
 form fieldset h1{
+    padding: 10px;
     text-align: center;
     font-family: cursive;
     font-size: 1.7rem;
 }
 
-form fieldset legend{
+form fieldset p{
     font-family: cursive;
-    font-size: 1.2rem;
-    color: white;
+    margin: 15px;
 }
 
-form p{
+form fieldset p#comunidade{
     display: flex;
-    flex-direction: column;
-    align-items: flex-start;
     justify-content: center;
+    flex-direction: row-reverse;
     gap: 10px;
-    padding-bottom: 10px;
-    font-family: cursive;
-    font-size: 1rem;
 }
 
-form p input, textarea{
+form fieldset p#comunidade label{
+    font-size: 0.9rem;
+    color: rgb(70, 73, 77);
+}
+
+form fieldset p input{
+    border: 0;
+    border-bottom: 2px solid black;
     padding: 3px;
-    border-radius: 5px;
 }
 
-form p#botoes{
-    display: flex;
-    flex-direction: row;
+form fieldset p.formulario input{
+    width: 100%;
 }
 
-form p#botoes input{
-    font-family: cursive;
+form fieldset p#botao input{
     cursor: pointer;
-    border: 1px solid rgba(0, 0, 0, 0.555);
-    color: black;
-    box-shadow: 1px 1.2px 1px rgba(0, 0, 0, 0.664);
+    border-radius: 5px;
+    border: 2px solid black;
     background-color: white;
+    padding: 7px 20px;
+    width: 100%;
+    color: rgba(22, 117, 240, 0.87)
 }
 
-form p#botoes input:hover{
-    background-color: rgb(170, 170, 170);
+form fieldset p#login{
+    font-size: 0.9rem;
+    color: rgb(70, 73, 77);
+}
+
+form fieldset p#login i{
+    cursor: pointer;
+    color: rgba(22, 117, 240, 0.87);
 }
