@@ -9,3 +9,4 @@ Olá! Aqui é onde eu coloco meus projetos e exercícios que utilizam JavaScript
 <p>🎨 Gerador de cores: <a href="https://suzanadossantos.github.io/javascript/gerador-de-cores/">Link</a>.<p/>
 <p>🍕 Site Pizzaria: <a href="https://suzanadossantos.github.io/javascript/site-pizzaria/">Link</a>.<p/>
 <p>✔️ ToDo List: <a href="https://suzanadossantos.github.io/javascript/todo-list/">Link</a>.<p/>
+<p>✨ Sidebar: <a href="https://suzanadossantos.github.io/javascript/sidebar/">Link</a>.<p/>
