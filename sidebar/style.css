@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: #FFFFFF;
+    color: #000000;
+}
+
+aside.menu{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #1743d4e7;
+    width: 220px;
+    height: 100%;
+    box-shadow: 1px 0px 2px #808080;
+}
+
+aside.menu nav.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 35px;
+    padding: 20px;
+}
+
+aside.menu nav.sidebar button{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px;
+}
+
+aside.menu nav.sidebar button:hover{
+    transition: 7ms;
+    border-radius: 20px;
+    background-color: #000000a2;
+}
+
+aside.menu nav.sidebar button i{
+    color: #FFFFFF;
+}
+
+aside.menu nav.sidebar button a{
+    color: #FFFFFF;
+    font-size: 1.2em;
+}
+
+main{
+    margin-top: 20px;
+    margin-left: 240px;
+    margin-right: 6px;
+}
+
+main p{
+   width: 80%; 
+}
+
+main img{
+    display: block;
+    margin-top: 20px;
+    width: 150px;
+    height: 200px;
+}
+
+aside.menu-active{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #1743d4e7;
+    width: 80px;
+    height: 100%;
+    box-shadow: 1px 0px 2px #808080;
+}
+
+aside.menu-active nav.sidebar{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 35px;
+    padding: 20px;
+}
+
+aside.menu-active nav.sidebar button{
+    cursor: pointer;
+    display: block;
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+}
+
+aside.menu-active nav.sidebar button:hover{
+    transition: 7ms;
+    border-radius: 100px;
+    background-color: #000000a2;
+}
+
+aside.menu-active nav.sidebar button i{
+    color: #FFFFFF;
+}
+
+aside.menu-active nav.sidebar button a{
+    display: none;
+}
+
+button.button-menu{
+    display: none;
+}
+
+button.button-close{
+    display: none;
+}
+
+@media (width < 600px){
+    aside.menu{
+        width: 80px;
+    }
+
+    aside.menu nav.sidebar button a{
+        display: none;
+    }
+
+    aside.menu nav.sidebar button{
+        display: block;
+        padding: 10px;
+    }
+
+    aside.menu nav.sidebar button:hover{
+        border-radius: 100px;
+    }
+
+    main{
+        transition: margin 0.4s;
+        margin-left: 100px;
+    }
+}
+
+@media (width < 450px){
+    button.button-menu{
+        cursor: pointer;
+        display: block;
+        background: transparent;
+        border: none;
+        padding: 15px 10px;
+    }
+
+    button.button-close{
+        cursor: pointer;
+        display: block;
+        background: transparent;
+        border: none;
+        color: #FFFFFF;
+        padding: 15px 10px;
+    }
+
+    aside.menu{
+        display: none;
+    }
+
+    aside.menu-active{
+        background-color: #1743d4;
+    }
+
+    main{
+        transition: margin 0.4s;
+        margin-left: 20px;
+    }
+
+    main p{
+        width: 90%; 
+    }
+}
